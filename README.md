@@ -8,7 +8,7 @@ Getting Started with Docs
 ### Prerequisites
 
 You're going to need: 
-
+ 
  - **Linux or macOS** — Windows may work, but is unsupported.
  - **Ruby, version 2.3.1 or newer**
     - (for macOS) You can use [Homebrew](https://brew.sh/) as the 1st step to install Ruby
