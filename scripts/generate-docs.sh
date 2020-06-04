@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 set -exuo pipefail
 
-git clone https://github.com/catalin-sbp/api-docs-product.git
+git clone https://oni-sbp:$ONI_PASS@github.com/oni-sbp/CodeGen-Code.git
 
 cd api-docs-product
 npm install
