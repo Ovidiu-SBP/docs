@@ -3,7 +3,7 @@ set -exuo pipefail
 
 git clone https://oni-sbp:$ONI_PASS@github.com/oni-sbp/CodeGen-Code.git
 
-cd api-docs-product
+cd CodeGen-Code
 npm install
 
 cp -r doc-generation/lib ./docs/raml2markdown/oas-raml-converter/
