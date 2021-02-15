@@ -79,7 +79,7 @@ types:
       The data to be signed, is the `data` key in the response, e.g.
       <code>
       {<br />
-        "@context": "https://standards.lifeengine.io/v1/Context/Identity/Thing/HumanWorld/Product/DataProduct", <br />
+        "@context": "https://standards.oftrust.net/v2/Context/Identity/Product/DataProduct/", <br />
         "data": data,  # this is the data that is signed.<br />
         "signature": {<br />
             "type": "RsaSignature2018",<br />
@@ -122,7 +122,7 @@ types:
           <p><strong>Python example:</strong><br />
           <code>
           body = {...}
-           body_string = json.dumps( <br/>
+          body_string = json.dumps(<br />
             body, sort_keys=True, indent=None, separators=(',', ': ') <br />
           ).strip()
           </code>
@@ -281,10 +281,10 @@ types:
           description: |
             The data returned from the translator cannot be read or parsed.
           example: |
-            {
-              "error": {
+              {
+                "error": {
                   "status": 500,
-                "message": "Could not parse response from translator"
+                  "message": "Could not parse response from translator"
                 }
               }
       502:
