@@ -1,20 +1,20 @@
 read:
   description: read permission
-    type: boolean
+    type: bool
     example: true
 write:
   description: write permission
-    type: boolean
+    type: bool
     example: true
 link: 
   description: link permission
-    type: boolean
+    type: bool
     example: false
 manage:
   description: manage permission
-    type: boolean
+    type: bool
     example: false
 consume:
   description: consume permission
-    type: boolean
+    type: bool
     example: false
