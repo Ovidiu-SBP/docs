@@ -1,0 +1,20 @@
+read:
+  description:
+    type: bool
+    example: true
+write:
+  description:
+    type: bool
+    example: true
+link: 
+  description:
+    type: bool
+    example: false
+manage:
+  description:
+    type: bool
+    example: false
+consume:
+  description:
+    type: bool
+    example: false
