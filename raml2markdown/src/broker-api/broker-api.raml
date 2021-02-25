@@ -263,6 +263,19 @@ types:
                 "signatureValue": "..."
               }
             }
+      403:
+        body:
+          example: |
+            {
+              "error": {
+                "status": 403,
+                "message": {
+                  "mandatoryParameter": [
+                    "You don't have permissions to consume this data product!"
+                  ]
+                }
+              }
+            }
       422:
         body:
           example: |
