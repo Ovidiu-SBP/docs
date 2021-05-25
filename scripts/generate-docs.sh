@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 set -exuo pipefail
 
-git clone https://oni-sbp:$ONI_PASS@github.com/oni-sbp/CodeGen-Code.git
+git clone https://github.com/ovidiu-sbp/api-docs-product.git
 
 cd CodeGen-Code
 npm install
